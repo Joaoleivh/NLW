@@ -59,7 +59,11 @@ section {
     border-radius: 8px;
 }
 
+/* Se quiser fazer uma transparancia tenho de acrescentar o codigo em comentarios no section div e desabilitar o background img do section */
+
 section div {
+    /* background-color: #FFFFFF20;  
+    border-top: 4px solid rgb(7, 211, 140); */  
     background-color: #2A2634;
     padding: 32px;
     padding-top: 24px;
