@@ -54,7 +54,11 @@ main {
 
 section {
     color: white;
-    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    background-image: linear-gradient(122deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+    /*para se quiser fazer border animada*/
+    /* background-image: linear-gradient(122deg, #9572FC 16%, #43E7AD 32%, #E2D45C 48%, #9572FC 64%, #43E7AD 80%, #E2D45C 100%); */ 
+    
     padding-top: 4px;
     border-radius: 8px;
 }
@@ -116,6 +120,10 @@ header div {
 
 main section {
     animation: fromSide .7s .2s backwards;
+    /* animation: boxBorder 2s ease infinite;
+    background-size: 50% 100%;
+    animation-timing-function: linear; */
+    
 }
 
 main section:nth-child(1){
@@ -153,3 +161,15 @@ main section:nth-child(3){
         transform: translateX(0);
     }
 }
+
+/*para se quiser fazer border animada*/
+
+/* @keyframes boxBorder { 
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100%{ 
+        background-position: 100% 50%
+    }
+} */
